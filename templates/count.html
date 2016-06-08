@@ -2,8 +2,10 @@
 <title>Count Page</title>
 </head>
 <body>
-<h1>Count Template</h1>
-<p>working on the jinja2 template</p>
+{% for new_number in numbers %}
+<h1>current count is :{{new_number}}</h1>
+{% endfor %}
+<p>Is it still working</p>
 
 
 </body>
